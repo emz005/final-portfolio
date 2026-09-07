@@ -1,10 +1,14 @@
 body {
-    font-family: Arial;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333333;
 }
 
 .jumbotron {
-    background-color: lightgray;
-}
+  background-color: #4a90e2;
+  color: #ffffff
+  padding 50px 20px;
+  }
 
 .container {
     padding-top: 30px;
@@ -12,22 +16,26 @@ body {
 }
 
 h2 {
-    color: darkblue;
-    margin-bottom: 20px;
+  color: #2c3e50;
+  font-weight: bold;
+  border-bottom: 3px solid #ff6b6b; 
+  display: inline-block;
+  padding-bottom: 5px;
 }
-
 .card {
     margin-bottom: 20px;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
+.card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 footer {
     margin-top: 40px;
     padding: 20px;
+    background-color: #1e272e;
 }
 
 .headshot-img {
